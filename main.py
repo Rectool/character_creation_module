@@ -1,6 +1,7 @@
 from random import randint
 
 
+
 def attack(char_name, char_class):
     if char_class == 'warrior':
         return (f'{char_name} нанёс противнику урон, равный '
@@ -84,6 +85,7 @@ def choice_char_class():
 
 
 def main():
+    
     print('Приветствую тебя, искатель приключений!')
     print('Прежде чем начать игру...')
     char_name = input('...назови себя: ')
